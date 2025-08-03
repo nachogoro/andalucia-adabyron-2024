@@ -10,8 +10,7 @@ vocales sin acentuar y consonantes (todas minúsculas), y a continuación una
 serie de palabras del diccionario. El objetivo es devolver, si es posible, la
 palabra más larga de las suministradas, que puede formarse utilizando letras
 del multiconjunto de letras proporcionado. Cada letra del multiconjunto puede
-utilizarse como mucho una vez para formar una de las
-palabras del diccionario.
+utilizarse como mucho una vez para formar una de las palabras del diccionario.
 
 ## Entrada
 
