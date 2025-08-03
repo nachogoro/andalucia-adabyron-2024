@@ -20,11 +20,7 @@ programa que determine si su propuesta de contraseña es número seguro o no.
 ## Entrada
 
 La entrada consta de una serie de casos de prueba. Cada caso es un número
-entero positivo $n$, siendo
-
-```math
-0 < n < 100000
-```
+entero positivo $n$, siendo $0 < n < 100000$.
 
 El final de la entrada se reconoce por el entero 0.
 
