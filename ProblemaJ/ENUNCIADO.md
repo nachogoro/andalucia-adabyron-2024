@@ -7,10 +7,10 @@ llamando gratis al teléfono 900 30 20 10 o bien a través de Bizum al número
 11013 (la cantidad máxima que se puede donar es de 500 euros).
 
 A lo largo de estos años las donaciones han sido muy variadas, pero
-habitualmente hay ciertas can- tidades de dinero que se suelen repetir entre
-los donantes. Este año se ha decidido analizar más en detalle las donaciones
-para determinar con exactitud cuál es la cantidad de dinero que más se repite
-en cada campaña.
+habitualmente hay ciertas cantidades de dinero que se suelen repetir entre los
+donantes. Este año se ha decidido analizar más en detalle las donaciones para
+determinar con exactitud cuál es la cantidad de dinero que más se repite en
+cada campaña.
 
 ## Entrada
 
