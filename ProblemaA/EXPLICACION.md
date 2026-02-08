@@ -50,33 +50,32 @@ Así, la cantidad de objetos utilizados se reduce de $k$ a $\log2(k)$.
 1. Para cada tipo de bollo preñado:
    - Calculamos cuántos podemos hacer con el chorizo y masa disponibles para
      cada tipo $i$:
-    ```math
-    k_i = \min(\frac{a_i}{b_i},\frac{n}{c_i})
-    ```
+   
+   $$k_i = \min(\frac{a_i}{b_i},\frac{n}{c_i})$$
+
    - Usamos descomposición binaria para crear $\log2(k_i)$ subobjetos
      equivalentes.
 
-2. Para el tipo de bollo sin chorizo:
+3. Para el tipo de bollo sin chorizo:
     - Calculamos cuántos podemos hacer con la masa disponible:
-    ```math
-    k_y = \frac{n}{c_y}
-    ```
+    
+    $$k_y = \frac{n}{c_y}$$
+   
    - Usamos descomposición binaria para crear $\log2(k_y)$ subobjetos
      equivalentes.
    - Lo tratamos como un tipo de bollo más.
 
-3. Aplicamos el algoritmo clásico de la mochila 0-1:
-   - Mantenemos un array bidimensional $dp$ de tamaño $\text{# objetos a
+5. Aplicamos el algoritmo clásico de la mochila 0-1:
+   - Mantenemos un array bidimensional $dp$ de tamaño $\text{\\# objetos a
      considerar} \times (n+1)$.
    - Para un orden arbitrario de los objetos, para cada objeto $j$ con peso
      $w_j$ y beneficio $v_j$, y cantidad de masa $m' < m$ calculamos el valor
 máximo obtenible con $m'$ gramos de masa si sólo usamos objetos que preceden al
 objeto $j$ y potencialmente el objeto $j$ como:
-    ```math
-    dp[j][m'] = \max(v_j + dp[j-1][m'-w_j], dp[j-1][m'])
-    ```
 
-4. El valor $dp[\text{# objetos a considerar}][n]$ es el valor buscado.
+    $$dp[j][m'] = \max(v_j + dp[j-1][m'-w_j], dp[j-1][m'])$$
+
+6. El valor $dp[\text{\\# objetos a considerar}][n]$ es el valor buscado.
 
 ### Optimización de espacio
 Podemos utilizar un array unidimensional en lugar de uno bidimensional si para
