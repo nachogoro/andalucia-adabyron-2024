@@ -38,4 +38,4 @@ Este recorrido garantiza que se eligen prefijos lo más altos posibles en el
 
 | Solución | Verificado con el juez |
 | :------: | :--------------------: |
-| [B.cpp](src/B.cpp) | :x:          |
+| [B.cpp](src/B.cpp) | :white_check_mark:          |

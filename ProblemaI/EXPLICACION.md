@@ -94,4 +94,4 @@ siendo $O(N)$ amortizado.
 
 | Solución | Verificado con el juez |
 | :------: | :--------------------: |
-| [I.cpp](src/I.cpp) | :x:          |
+| [I.cpp](src/I.cpp) | :white_check_mark:          |

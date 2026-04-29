@@ -21,7 +21,7 @@ int main() {
 				dp[i] = 1;
 			} else {
 				int ptr = i-1;
-				while(ptr > 0 && v[ptr] <= v[i]) {
+				while(ptr >= 0 && v[ptr] <= v[i]) {
 					ptr -= dp[ptr];
 				}
 				dp[i] = i - ptr;

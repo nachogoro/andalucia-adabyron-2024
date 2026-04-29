@@ -40,4 +40,4 @@ sobres, si usamos un array de booleanos para marcar los cromos obtenidos.
 
 | Solución | Verificado con el juez |
 | :------: | :--------------------: |
-| [D.cpp](src/D.cpp) | :x:          |
+| [D.cpp](src/D.cpp) | :white_check_mark:          |

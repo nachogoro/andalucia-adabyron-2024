@@ -14,4 +14,4 @@ entero; o podemos iterativamente obtener el último dígito de un número como $
 
 | Solución | Verificado con el juez |
 | :------: | :--------------------: |
-| [A.cpp](src/A.cpp) | :x:          |
+| [A.cpp](src/A.cpp) | :white_check_mark:          |

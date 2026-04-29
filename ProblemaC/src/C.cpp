@@ -55,7 +55,7 @@ int main() {
 
 		for (auto [k, v] : componentes_conexas(adj)) {
 			tiendas++;
-			combinaciones = (combinaciones * v) % (10^9 + 7);
+			combinaciones = (combinaciones * v) % (1000000007);
 		}
 
 		cout << tiendas << " " << combinaciones << "\n";

@@ -13,4 +13,4 @@ con un subconjunto de $C$.
 
 | Solución | Verificado con el juez |
 | :------: | :--------------------: |
-| [K.cpp](src/K.cpp) | :x:          |
+| [K.cpp](src/K.cpp) | :white_check_mark:          |

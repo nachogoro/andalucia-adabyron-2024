@@ -89,5 +89,5 @@ dp[m'] = \max(dp[m'], v_j + dp[m' - w_j])
 
 | Solución | Verificado con el juez |
 | :------: | :--------------------: |
-| [A.cpp](src/A.cpp) | :x:          |
+| [A.cpp](src/A.cpp) | :white_check_mark:|
 

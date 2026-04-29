@@ -43,4 +43,4 @@ simplemente:
 
 | Solución | Verificado con el juez |
 | :------: | :--------------------: |
-| [C.cpp](src/C.cpp) | :x:          |
+| [C.cpp](src/C.cpp) | :white_check_mark:          |

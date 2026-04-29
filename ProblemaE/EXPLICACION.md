@@ -56,4 +56,4 @@ número de vasos visto hasta ahora.
 
 | Solución | Verificado con el juez |
 | :------: | :--------------------: |
-| [E.cpp](src/E.cpp) | :x:          |
+| [E.cpp](src/E.cpp) | :white_check_mark:          |

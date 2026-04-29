@@ -27,4 +27,4 @@ cada una de sus componentes independientes lo son.
 
 | Solución | Verificado con el juez |
 | :------: | :--------------------: |
-| [G.cpp](src/G.cpp) | :x:          |
+| [G.cpp](src/G.cpp) | :white_check_mark:          |
