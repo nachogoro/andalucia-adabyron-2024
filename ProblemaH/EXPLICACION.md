@@ -11,9 +11,9 @@ dos la tiene).
 A primera vista parece un problema de búsqueda sobre $4^{R \cdot C}$
 posibilidades. Para una cuadrícula $11 \times 11$ esto da $4^{121} \approx
 10^{73}$ configuraciones, claramente intratable por fuerza bruta. La idea clave
-para hacerlo eficiente es darse cuenta de que, **si recorremos la cuadrícula en
+para hacerlo eficiente es darse cuenta de que, si recorremos la cuadrícula en
 un orden fijo (por ejemplo, fila a fila, de oeste a este) y vamos colocando una
-pieza tras otra**, en cada momento las únicas restricciones pendientes con el
+pieza tras otra, en cada momento las únicas restricciones pendientes con el
 "futuro" son una franja muy estrecha de bits: el lado sur de la fila
 parcialmente colocada, y el lado este de la última pieza puesta. Eso es lo que
 en programación dinámica se conoce como **DP de perfil roto** (*broken profile
